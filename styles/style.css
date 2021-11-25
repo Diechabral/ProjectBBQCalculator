@@ -1,8 +1,13 @@
+body{
+    background-image: url(./Assets/picanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .container {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 300px;
   margin: auto;
-  background-color: aliceblue;
+  background-color:rgba(117, 73, 53, 0.5);
   padding: 20px;
   border-radius: 10px;
 }

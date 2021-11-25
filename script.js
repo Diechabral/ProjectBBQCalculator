@@ -15,9 +15,9 @@ function calculating() {
     let qttTotalBeer = beerPP(duration) * adults;
     let qttTotalBevarage = bevaragePP(duration) * adults + (bevaragePP(duration) / 2) * kids;
 
-    results.innerHTML = `<p>${qttTotalMeat}g of Meat </p>`
-    results.innerHTML += `<p>${qttTotalBeer}ml of Beer </p>`
-    results.innerHTML += `<p>${qttTotalBevarage}ml of Pop </p>`
+    results.innerHTML = `<p>${qttTotalMeat/1000}Kg of Meat </p>`
+    results.innerHTML += `<p>${qttTotalBeer/1000}L of Beer </p>`
+    results.innerHTML += `<p>${qttTotalBevarage/1000}L of Pop </p>`
 
 }
 
