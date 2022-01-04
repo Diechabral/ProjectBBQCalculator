@@ -1,15 +1,21 @@
 body{
-    background-image: url(./Assets/picanha.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url(./Assets/picanha.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 .container {
   font-family: Arial, Helvetica, sans-serif;
-  max-width: 300px;
+  max-width: fit-content;
+  max-height: fit-content;
   margin: auto;
   background-color:rgba(117, 73, 53, 0.5);
   padding: 20px;
   border-radius: 10px;
+  
+}
+.resultss{
+  font-family: Arial, Helvetica, sans-serif;
+  color:#d7b33a
 }
 input {
   width: 100%;
